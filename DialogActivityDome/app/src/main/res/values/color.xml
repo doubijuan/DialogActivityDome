@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 蓝色 -->
+    <color name="blue">#2EA2E4</color>
+    <!-- 绿色 -->
+    <color name="green">#0dab61</color>
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!-- 米色 -->
+    <color name="beige">#CDCDCD</color>
+    <!-- 浊色 -->
+    <color name="grey_light">#f3f3f3</color>
+    <!-- 黑色 -->
+    <color name="black">#000000</color>
+    <!-- 红色 -->
+    <color name="red">#ff0000</color>
+    <!-- 深红色 -->
+    <color name="red_dark">#BE0E20</color>
+    <!-- 深蓝色 -->
+    <color name="blue_dark">#0C4A9A</color>
+    <!-- 灰色 -->
+    <color name="grey">#FF999999</color>
+    <!--透明-->
+    <color name="transparent">#00000000</color>
+    <!--橙色-->
+    <color name="orange">#EA5513</color>
+</resources>

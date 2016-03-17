@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/acitvity_margin"
+        android:paddingRight="@dimen/acitvity_margin">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="上班时间:"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/size_text_medium" />
+
+            <Button
+                android:id="@+id/tv_signin_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="9:00"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/size_text_medium" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="下班时间:"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/size_text_medium" />
+
+            <Button
+                android:id="@+id/tv_signout_time"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:gravity="center"
+                android:text="18:00"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/size_text_medium" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:paddingLeft="@dimen/acitvity_margin"
+        android:paddingRight="@dimen/acitvity_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="公司位置:"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/size_text_medium" />
+
+        <EditText
+            android:id="@+id/et_address"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/tv_address"
+            android:background="@color/white"
+            android:hint="请输入公司位置"
+            android:singleLine="true"
+            android:textSize="@dimen/size_text_small" />
+
+        <TextView
+            android:id="@+id/tv_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="重新定位"
+            android:textColor="@color/blue"
+            android:textSize="@dimen/size_text_medium" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:paddingLeft="@dimen/acitvity_margin"
+        android:paddingRight="@dimen/acitvity_margin">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:gravity="center"
+            android:text="设置管理员:"
+            android:textColor="@color/grey"
+            android:textSize="@dimen/size_text_medium" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:src="@mipmap/icon_toright" />
+    </RelativeLayout>
+</LinearLayout>
